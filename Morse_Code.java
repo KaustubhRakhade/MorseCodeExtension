@@ -115,6 +115,7 @@ public class Morse_Code extends AndroidNonvisibleComponent {
         newtext = newtext.replace(dot, ".");
         newtext = newtext.replace(dash, "-");
         newtext = newtext.replace(wordSpace, "/");
+        newtext = newtext.replace(" ", "  ");
         newtext = newtext.replace(" .- ", "A");
         newtext = newtext.replace(" -... ", "B");
         newtext = newtext.replace(" -.-. ", "C");
