@@ -58,6 +58,7 @@ public class Morse_Code extends AndroidNonvisibleComponent {
     public Object TextToMorse(final String text) {
         String newtext = text.toUpperCase();
         newtext = newtext.replace(" ", "/ ");
+        newtext = newtext.replace(".", ".-.-.- ");
         newtext = newtext.replace("A", ".- ");
         newtext = newtext.replace("B", "-... ");
         newtext = newtext.replace("C", "-.-. ");
@@ -98,11 +99,17 @@ public class Morse_Code extends AndroidNonvisibleComponent {
         newtext = newtext.replace(":", "---... ");
         newtext = newtext.replace("=", "-...- ");
         newtext = newtext.replace("'", ".----. ");
-        newtext = newtext.replace("(", "-.--.- ");
+        newtext = newtext.replace("(", "-.--. ");
         newtext = newtext.replace(")", "-.--.- ");
         newtext = newtext.replace("&", ".-... ");
         newtext = newtext.replace(";", "-.-.-. ");
+        newtext = newtext.replace("@", ".--.-. ");
+        newtext = newtext.replace("!", "-.-.-- ");
         newtext = newtext.replace("$", "...-..- ");
+        newtext = newtext.replace(",", "--..-- ");
+        newtext = newtext.replace('"', ".-..-. ");
+        newtext = newtext.replace("_", "..--.- ");
+        newtext = newtext.replace("+", ".-.-. ");
         newtext = newtext.replace(".", dot);
         newtext = newtext.replace("-", dash);
         newtext = newtext.replace("/", wordSpace);
@@ -157,11 +164,17 @@ public class Morse_Code extends AndroidNonvisibleComponent {
         newtext = newtext.replace(" ---... ", ":");
         newtext = newtext.replace(" -...- ", "=");
         newtext = newtext.replace(" .----. ", "'");
-        newtext = newtext.replace(" -.--.- ", "(");
+        newtext = newtext.replace(" -.--. ", "(");
         newtext = newtext.replace(" -.--.- ", ")");
         newtext = newtext.replace(" .-... ", "&");
         newtext = newtext.replace(" -.-.-. ", ";");
         newtext = newtext.replace(" ...-..- ", "$");
+        newtext = newtext.replace(".--.-. ", "@");
+        newtext = newtext.replace("-.-.-- ", "!");
+        newtext = newtext.replace("--..-- ", ",");
+        newtext = newtext.replace(".-..-. ", '"');
+        newtext = newtext.replace("..--.- ", "_");
+        newtext = newtext.replace(".-.-. ", "+");
         newtext = newtext.replace(" -..-. ", "/");
         newtext = newtext.replace(" .-.-.- ", ".");
         return newtext.trim();
