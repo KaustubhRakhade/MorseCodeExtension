@@ -94,6 +94,15 @@ public class Morse_Code extends AndroidNonvisibleComponent {
         newtext = newtext.replace("8", "---.. ");
         newtext = newtext.replace("9", "----. ");
         newtext = newtext.replace("0", "----- ");
+        newtext = newtext.replace("?", "..--.. ");
+        newtext = newtext.replace(":", "---... ");
+        newtext = newtext.replace("=", "-...- ");
+        newtext = newtext.replace("'", ".----. ");
+        newtext = newtext.replace("(", "-.--.- ");
+        newtext = newtext.replace(")", "-.--.- ");
+        newtext = newtext.replace("&", ".-... ");
+        newtext = newtext.replace(";", "-.-.-. ");
+        newtext = newtext.replace("$", "...-..- ");
         newtext = newtext.replace(".", dot);
         newtext = newtext.replace("-", dash);
         newtext = newtext.replace("/", wordSpace);
@@ -142,6 +151,17 @@ public class Morse_Code extends AndroidNonvisibleComponent {
         newtext = newtext.replace(" ---.. ", "8");
         newtext = newtext.replace(" ----. ", "9");
         newtext = newtext.replace(" ----- ", "0");
+        newtext = newtext.replace("..--.. ", "?");
+        newtext = newtext.replace("---... ", ":");
+        newtext = newtext.replace("-...- ", "=");
+        newtext = newtext.replace(".----. ", "'");
+        newtext = newtext.replace("-.--.- ", "(");
+        newtext = newtext.replace("-.--.- ", ")");
+        newtext = newtext.replace(".-... ", "&");
+        newtext = newtext.replace("-.-.-. ", ";");
+        newtext = newtext.replace("...-..- ", "$");
+        newtext = newtext.replace("-..-. ", "/");
+        newtext = newtext.replace(".-.-.- ", ".");
         return newtext.trim();
     }
 }
