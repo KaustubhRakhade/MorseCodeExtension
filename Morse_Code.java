@@ -107,7 +107,6 @@ public class Morse_Code extends AndroidNonvisibleComponent {
         newtext = newtext.replace("!", "-.-.-- ");
         newtext = newtext.replace("$", "...-..- ");
         newtext = newtext.replace(",", "--..-- ");
-        newtext = newtext.replace('"', ".-..-. ");
         newtext = newtext.replace("_", "..--.- ");
         newtext = newtext.replace("+", ".-.-. ");
         newtext = newtext.replace(".", dot);
@@ -171,7 +170,6 @@ public class Morse_Code extends AndroidNonvisibleComponent {
         newtext = newtext.replace(".--.-. ", "@");
         newtext = newtext.replace("-.-.-- ", "!");
         newtext = newtext.replace("--..-- ", ",");
-        newtext = newtext.replace(".-..-. ", '"');
         newtext = newtext.replace("..--.- ", "_");
         newtext = newtext.replace(".-.-. ", "+");
         newtext = newtext.replace(" / ", " ");
