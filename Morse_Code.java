@@ -7,7 +7,7 @@ import android.content.Context;
 import android.util.Log;
 
 @DesignerComponent(version = 1,  description = "<b>Morse Code Extension</b><br>" + 
-                   "Easily convert Text into Morse Code & Morse Code into Text with this e tension<br>Created by <b>Kaustubh Rakhade</b><br>Get all my extensions <a href='https://kaustubhrakhade.github.io/extensions/' target='_blank'><b>HERE</b></a><br>",
+                   "Easily convert Text into Morse Code & Morse Code into Text with this e tension<br>Created by <b>Kaustubh Rakhade</b>",
         category = ComponentCategory.EXTENSION,
         nonVisible = true,   iconName = "https://github.com/KaustubhRakhade/MorseCodeExtension/raw/main/Morse.png")
 @SimpleObject(external = true)
