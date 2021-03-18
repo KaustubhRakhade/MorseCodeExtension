@@ -1,3 +1,5 @@
+package com.kaustubhrakhade.MorseCode;
+
 import com.google.appinventor.components.annotations.*;
 import com.google.appinventor.components.runtime.*;
 import com.google.appinventor.components.common.ComponentCategory;
